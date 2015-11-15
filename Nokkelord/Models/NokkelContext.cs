@@ -10,5 +10,7 @@ namespace Nokkelord.Models
         public DbSet<Keyword> Keywords { get; set; }
         public DbSet<ItemKeyword> ItemKeywords { get; set; }
         public DbSet<Item> Items { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; } 
     }
 }
